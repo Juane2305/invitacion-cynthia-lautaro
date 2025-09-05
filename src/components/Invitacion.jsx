@@ -19,8 +19,8 @@ const Invitacion = () => {
       </div>
       <div className="flex flex-col justify-center items-center h-screen w-full text-center bg-[url('https://res.cloudinary.com/dfschbyq2/image/upload/v1740755815/Disen%CC%83o_Elegante_gem3ut_xq0rzs.webp')] bg-cover bg-no-repeat bg-center md:bg-fixed border-b-2 border-[#800020] relative">
       <h2 className="text-3xl md:text-5xl text-lime-900 z-10 italic mb-4">¡Nos casamos!</h2>
-      <h1 className="text-5xl md:text-8xl  text-gold z-10 italic">
-          Cynthia & Lautaro
+      <h1 className="text-5xl md:text-8xl  text-gold z-10 font-dancingScript">
+          Cynthia y Lautaro
         </h1>
         <p className="mt-8 text-2xl text-lime-900">27 . 09 . 2025</p>
       </div>
@@ -44,7 +44,7 @@ const Invitacion = () => {
           </section>
           <section className="my-10 border-b-2 border-[#800020]">
             <DatosBancarios
-              texto="Nuestro regalo es tu presencia, pero si nos querés ayudar con nuestra luna de miel, te dejamos nuestros datos bancarios"
+              texto="En lugar de regalo, preferimos que nos ayuden con nuestra luna de miel"
               cbu="0000003100043029160632"
               alias="CynyLau27.09"
               banco="Mercado Pago"
